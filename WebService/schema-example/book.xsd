@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <schema xmlns="http://www.w3.o rg/2001/XMLSchema" 
+   		   targetNamespace="http://www.atguigu.cn" 
+		   elementFormDefault="qualified">	
+	<element name="书架">
+		<complexType>
+			<sequence maxOccurs="unbounded">
+				<element name="书">
+					<complexType>
+						<sequence>
+							<element name="书名" type="string"/>
+							<element name="作者" type="string"/>
+							<element name="售价" type="string"/>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
+<!-- 
+	schema规范中：
+	1.所有的标签和属性都必须  要有schema文件来定义
+	2.所有的schema文件都需要有一个id,但是在这里叫它namespace
+	3.namespace的值由什么来指定？
+		由targetNamespace属性来指定，它的值是一个url(很有可能不存在)
+	4.如何引入一个schema约束？
+		属性？：xmlns属性
+		属性值：对应的schema文件的id
+		elementFormDefault:是一个枚举值，默认是unqualified,只约束根标签；
+						   qualified是关联所有标签；
+    5.如果引入的schema文件不是W3C组织定义的，必须指定schema文件的位置
+    6.schema文件的位置由什么属性来指定?
+                属性：schemaLocation
+                属性值：namespace path
+    7.如果引入N个约束，需要引入n-1个别名  
+ -->
