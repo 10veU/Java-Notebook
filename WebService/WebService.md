@@ -49,7 +49,7 @@
  &emsp;&emsp;属性：schemaLocation  
  &emsp;&emsp;属性值：namespace path  
 7.如果引入N个约束，需要引入n-1个别名  
-[schema约束的示例](https://github.com/AbsolutelyEmpty/Java-work-learning-notes/tree/master/schema-example)
+[schema约束的示例](https://github.com/AbsolutelyEmpty/Java-Notebook/tree/master/WebService/schema-example)
 ### http请求协议
 #### 请求（request）
   - 请求头  
@@ -109,26 +109,26 @@
      1. 查看对用的wsdl文档（发布的地址?wsdl）—— 一般浏览器  
      2. 请求wenService并查看请求和响应消息（webservice浏览器)  
    - 创建客户端应用编码方式访问  
-   [示例代码](https://github.com/AbsolutelyEmpty/Java-work-learning-notes/tree/master/jdk-webservice-example)
+   [示例代码](https://github.com/AbsolutelyEmpty/Java-Notebook/tree/master/WebService/jdk-webservice-example)
      1. 借助jdk的wsimport.exe工具生成客户端代码:  
         生成方式：执行wsimport -keep url (url为wsdl文件的路径)  
      2. 借助生成的代码编写请求代码  
  ### 监听请求：使用Eclipse的TCP/IP工具(端口转发)  
- [示例代码](https://github.com/AbsolutelyEmpty/Java-work-learning-notes/tree/master/jdk-webservice-example-client(TCP-IP%20Monitor)) 
+ [示例代码](https://github.com/AbsolutelyEmpty/Java-Notebook/tree/master/WebService/jdk-webservice-example-client(TCP-IP%20Monitor)) 
  1. 将服务器端的WSDL文档保存到客户端本地  
  2. 修改文档：将端口从8088改为8080  
  3. 根据本地的wsdl文档生成客户端代码，并编写客户端的调用代码  
  4. 配置eclipse的TCP/IP，启动监听  
- ![](https://github.com/AbsolutelyEmpty/Java-work-learning-notes/blob/master/img/TCP-IP%20Montior%E9%85%8D%E7%BD%AE.png)  
+ ![](https://github.com/AbsolutelyEmpty/Java-Notebook/blob/master/WebService/img/TCP-IP%20Montior%E9%85%8D%E7%BD%AE.png)  
  5. 执行客户端代码执行WebService请求  
- ![](https://github.com/AbsolutelyEmpty/Java-work-learning-notes/blob/master/img/TP-IP%20Monitor%E7%9B%91%E5%90%AC%E4%BF%A1%E6%81%AF.png)  
+ ![](https://github.com/AbsolutelyEmpty/Java-Notebook/blob/master/WebService/img/TP-IP%20Monitor%E7%9B%91%E5%90%AC%E4%BF%A1%E6%81%AF.png)  
  ### 编写天气预报和手机归属地的WebService  
  * Google免费的"webservice服务"，找到提供天气预报的webservice的网络地址：  
     - http://ws.webxml.com.cn/WebServices/WeatherWS.asmx?wsdl  
     使用eclipse的WebService Explore进行访问  
-    ![使用eclipse的WebService Explore](https://github.com/AbsolutelyEmpty/Java-work-learning-notes/blob/master/img/webserviceExplor%E8%B0%83%E7%94%A8webservice%E6%9C%8D%E5%8A%A1.png)  
+    ![使用eclipse的WebService Explore](https://github.com/AbsolutelyEmpty/Java-Notebook/blob/master/WebService/img/webserviceExplor%E8%B0%83%E7%94%A8webservice%E6%9C%8D%E5%8A%A1.png)  
  * 客户端编码方式访问  
- [示例代码](https://github.com/AbsolutelyEmpty/Java-work-learning-notes/tree/master/weather-webservice-client)  
+ [示例代码](https://github.com/AbsolutelyEmpty/Java-Notebook/tree/master/WebService/weather-webservice-client)  
     - 借助命令工具生成客户端代码  
     - 借助生成的代码编写请求代码  
  ## 注意：  
