@@ -4,7 +4,7 @@ Keep track of the problems I have encountered in my work and my own knowledge of
 #### WebService  :factory:  
 >[WebService相关知识](https://github.com/AbsolutelyEmpty/Java-Notebook/blob/master/WebService/WebService.md)
 #### Hexo搭建个人博客 
->[Hexo搭建个人博客相关知识]()  
+>[Hexo搭建个人博客相关知识](https://github.com/AbsolutelyEmpty/Java-Notebook/blob/master/Hexo/Hexo.md)  
 #### JUnit  
 >[JUnit相关知识]()  
 #### Jenkins  
