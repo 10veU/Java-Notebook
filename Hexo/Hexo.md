@@ -88,7 +88,8 @@ cnzz统计
 [Github Pages](https://pages.github.com/)  
 ### <a name="14">十四、Hexo其他资源的介绍与分享</a>  
 [Hexo的中文官方文档](https://hexo.io/zh-cn/docs/)  
-[手把手教你用Hexo+Github 搭建属于自己的博客](https://blog.csdn.net/gdutxiaoxu/article/details/53576018)  
+[手把手教你用Hexo+Github 搭建属于自己的博客](https://blog.csdn.net/gdutxiaoxu/article/details/53576018)
+[20分钟教你搭建博客](https://www.jianshu.com/p/e99ed60390a8)  
 [有哪些好看的Hexo主题](https://www.zhihu.com/question/24422335/answer/46357100)  
 
 ---
