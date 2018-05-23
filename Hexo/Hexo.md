@@ -67,26 +67,26 @@ Hexo框架具有以下特点：
 ### <a name="7">七、如何让代码在Hexo下显示更加美观</a>  
 在官方的文档中也讲解了代码块如何显示  
 [Tags Plugins](https://hexo.io/docs/tag-plugins.html)  
-### <a neme="8">八、本地写作时最佳的图床解决方案</a>  
+### <a name="8">八、本地写作时最佳的图床解决方案</a>  
 [七牛云](https://www.qiniu.com/?hmsr=biaoti&hmpl=pinzhuan&hmcu=biaoti&hmkw=&hmci=)  
 使用七牛云进行配置后可以直接将图片上传到七牛云,简单，快捷的解决Markdown写博客引入图片的繁琐操作步骤。  
-### <a neme="9">九、插件的安装和必备插件的介绍</a>  
+### <a name="9">九、插件的安装和必备插件的介绍</a>  
 [字数统计的插件(个人博客版)](http://ibruce.info/2015/04/04/busuanzi/#more)  
 [官方插件](https://hexo.io/plugins/)  
 尽可能将主要的精力用在写博客上，插件根据自己的需要选择性的安装。  
-### <a neme="10">十、如和让你的博客介入评论系统</a>  
+### <a name="10">十、如和让你的博客介入评论系统</a>  
 [Disqus]()  
 [来必力](https://livere.com/)  
 [畅言](http://changyan.kuaizhan.com/)
-### <a neme="11">十一、如何给你的博客增加搜索功能</a>  
+### <a name="11">十一、如何给你的博客增加搜索功能</a>  
 [swiftype](https://swiftype.com/)  
 ### <a neme="12">十二、多个博客统计系统的接入方案分析</a>  
 统计的重要性  
 cnzz统计  
 百度统计  
-### <a neme="13">十三、部署博客到Github上的技巧</a>  
+### <a name="13">十三、部署博客到Github上的技巧</a>  
 [Github Pages](https://pages.github.com/)  
-### <a neme="14">十四、Hexo其他资源的介绍与分享</a>  
+### <a name="14">十四、Hexo其他资源的介绍与分享</a>  
 [Hexo的中文官方文档](https://hexo.io/zh-cn/docs/)  
 [手把手教你用Hexo+Github 搭建属于自己的博客](https://blog.csdn.net/gdutxiaoxu/article/details/53576018)  
 [有哪些好看的Hexo主题](https://www.zhihu.com/question/24422335/answer/46357100)  
